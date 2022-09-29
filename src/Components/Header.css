@@ -1,0 +1,80 @@
+
+.header{
+    position: absolute;
+    height: 75px;
+    display: flex;
+    padding:0;
+    margin:0 ;
+    width: 100%;
+    
+}
+.profilepic{
+    left: 0;
+    max-width: 70px;
+    max-height: 70px;
+    padding: 3px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.name{
+    position: absolute;
+    left: 100px;
+    color: white;
+    margin: 10px;
+    padding-left: 0px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: 'Rubik Marker Hatch', cursive;
+}
+.icon{
+    position:absolute;
+    right: 30px;
+    
+    padding: 20px;
+
+}
+.icon a{
+    padding: 20px;
+    
+}
+
+.gith{
+    color: white;
+}
+.gith:hover{
+    color: gray;
+}
+.insta{
+    color: white;
+}
+.insta:hover{
+   color: #d6249f;
+
+}
+.twitt{
+    color: white;
+}
+.twitt:hover{
+    color: #1DA1F2;
+}
+.linked{
+    color: white;
+}
+.linked:hover{
+    color:  #0A66C2;
+}
+@media screen and (max-width: 768px) {
+    .name{
+        font-size: 20px;
+        left: 60px;
+    }
+    .profilepic{
+    padding-top: 10px;
+    max-width: 40px;
+    max-height: 40px;
+    }
+    .icon{
+        top: 2150px;
+     
+    }
+}

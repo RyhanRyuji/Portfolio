@@ -1,0 +1,91 @@
+ .project_card{
+    border-color: #991101 #C23210;
+    border-radius: 25px 100px 25px 100px;
+    border-style: dashed;
+    border-width: 6px;
+    padding: 15px;
+    margin: 25px;
+
+ }
+ .project_card:hover{
+    border-color: white;
+    transition: 0.3s;
+ }
+.project_card-title{
+   font-size: 22px;
+   color: gold;
+}
+.project_card-description{
+    padding-left: 15px;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #88C0C0;
+    
+}
+.project_card-techstacks{
+    margin: 20px 0;
+    padding-left: 65px;
+    display: flex;
+    gap: 1rem;
+    color: gold;
+    font-size: 18px;
+    
+}
+.rocket{
+   padding-top:15px;
+}
+.project_card-stacklists{
+    display: flex;
+    gap: 1rem;
+    color: #88C0C0;
+   
+}
+.codes_url,.demo_url{
+    position: absolute;
+    text-decoration: none;
+    color:  #991101 ;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    
+    background:gold;
+    padding: 15px;
+    border-radius: 10px 25px 10px 25px;
+    outline: 5px solid #88C0C0; 
+}
+.codes_url{
+   right:250px;
+}
+.demo_url{
+   right: 150px;
+}
+.codes_url:hover,.demo_url:hover{
+    color: white;
+    transition: 0.3s;
+}
+@media screen and (max-width: 880px) {
+   .project_card{
+      padding-bottom: 75px;
+  }
+   .codes_url,.demo_url{
+      margin-top: 63px;
+   }
+}
+@media screen and (max-width: 768px) {
+    .project_card{
+        padding-bottom: 75px;
+    }
+    .codes_url,.demo_url{
+       margin-top: 63px;
+    }
+    .project_card-title{
+        font-size: 18px;
+     }
+     .project_card-description{
+        font-size: 16px;
+     }
+     .project_card-techstacks{
+        font-size: 16px;
+     }
+
+}

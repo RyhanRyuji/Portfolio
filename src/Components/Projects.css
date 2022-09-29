@@ -1,0 +1,14 @@
+.project-item{
+    position: absolute;
+    top: 600px;
+    padding: 50px;
+    color: white;
+}
+.color-text{
+    padding-left: 30px;
+}
+@media screen and (max-width: 768px) {
+    .color-text{
+        font-size: 22px;
+    }
+}
